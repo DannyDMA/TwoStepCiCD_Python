@@ -2,7 +2,18 @@
 This project demonstrates how to set up a simple two-stage CI/CD pipeline using AWS CodePipeline with a build stage in AWS CodeBuild to simulate an application build and execution.
 
 MINI PROJECT 
-[![Project](./images/pproj.png)](images/pproj.png)
+2 Stages Code Pipeline Application build Project Objectives
+
+This project demonstrates how to set up a simple two-stage CI/CD pipeline using AWS CodePipeline with a build stage in AWS CodeBuild to simulate an application build and execution.
+The pipeline is divided into two stages.
+1. Source Stage 
+   Fetches the source code from GitHub.
+
+2. Build Stage 
+   Runs a CodeBuild project that:  
+   Installs Python 3.9  
+   Checks and displays the Python version  
+   Runs a Python script `my_app.py` that prints my name  
 
 ---
 # The pipeline is divided into two stages.  

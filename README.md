@@ -1,6 +1,4 @@
-# 2 Stages Code Pipeline Application build HandsOn
-This project demonstrates how to set up a simple two-stage CI/CD pipeline using AWS CodePipeline with a build stage in AWS CodeBuild to simulate an application build and execution.
-
+# 2 Stages Code Pipeline Application build Project
 MINI PROJECT 
 2 Stages Code Pipeline Application build Project Objectives
 

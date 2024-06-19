@@ -24,6 +24,6 @@ phases:
       - echo "Build completed on `date`"      #This would display my prod date for log purposes
 
 artifacts:
-  files: #This will add every file and zip them
-   - my_app.py 
-   - buildspec.yml
+  files:
+    - my_app.py
+    - buildspec.yml

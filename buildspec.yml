@@ -1,1 +1,29 @@
-buildspec.yml
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      python: 3.9
+    commands:
+      - echo === INSTALL YOUR PACKAGES HERE ===   #To install Python 3.9
+    
+  pre_build:
+    commands:
+      - echo === CHECKING FOR PYTHON INSTALLED === #To check the version of Python installed
+      - python --version
+      - echo === INSTALLING PYTHON INSTALL ===
+    
+  build:
+    commands:
+      - echo === BUILD YOUR APPLICATION HERE ===
+      - python my_app.py #run my Python file
+    
+  post_build:
+    commands:
+      - echo === POST BUILD ACTIONS HERE ===
+      - echo "Build completed on `date`"      #This would display my prod date for log purposes
+
+artifacts:
+  files: #This will add every file and zip them
+   - my_app.py 
+   - buildspec.yml
